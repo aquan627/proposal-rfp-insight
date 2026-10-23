@@ -58,6 +58,7 @@ export async function POST(req: Request) {
           model: process.env.OPENAI_MODEL || "gpt-6.1-sol",
           max_completion_tokens: part === "requirements" ? 32000 : 16000,
           stream: true,
+          reasoning_effort: "none",
           messages: [
             { role: "system", content: system },
             { role: "user", content: userContent },
