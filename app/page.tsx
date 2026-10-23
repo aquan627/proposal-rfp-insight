@@ -289,7 +289,7 @@ export default function Home() {
 
         <footer>
           AI 분석 결과는 초안입니다. 특히 &lsquo;참고사례(검증필요)&rsquo;로 표시된 벤치마킹과 &lsquo;추론&rsquo; 근거 항목은 원문·출처를 반드시 확인하세요.
-          업로드한 RFP 텍스트는 분석을 위해 Claude API로 전송되며, 이 앱은 저장하지 않습니다.
+          업로드한 RFP 텍스트는 분석을 위해 OpenAI API로 전송되며, 이 앱은 저장하지 않습니다.
         </footer>
       </main>
     </>
